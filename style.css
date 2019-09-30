@@ -24,16 +24,56 @@ button:focus {
 
 .overBar {
     height: 10px;
-    background-color: black;
+    background-color: rgb(255, 190, 68);
 }
 
-.quizArea {}
+.quizArea {
+    margin-bottom: 10%;
+}
+
+#startButton {
+    margin-left: 40%;
+    width: 20%;
+    background-color: rgba(255, 216, 144, 0.863);
+    font-size: 150%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+#startButton:hover {
+    background-color: rgb(255, 190, 68);
+    cursor: pointer;
+}
+
+#startButton:active {
+    background-color: rgba(255, 190, 68, 0.664);
+}
 
 .underBar {
     height: 10px;
-    background-color: black;
+    background-color: rgb(255, 190, 68);
 }
 
 .credits {
     color: gray;
+    margin-bottom: 20px;
+}
+
+#backButton {
+    width: 20%;
+    background-color: rgba(255, 216, 144, 0.863);
+    font-size: 150%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+#backButton:hover {
+    background-color: rgb(255, 190, 68);
+    cursor: pointer;
+}
+
+#backButton:active {
+    background-color: rgba(255, 190, 68, 0.664);
 }

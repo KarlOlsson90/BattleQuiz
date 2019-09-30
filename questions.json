@@ -1,0 +1,31 @@
+[{
+        "question": "Testfråga 1: Vad blir 5 + 5",
+        "answers": {
+            "a": "10",
+            "b": "15",
+            "c": "7"
+        },
+        "correctAnswer": "a"
+    },
+
+    {
+        "question": "Testfråga 2: hur gammal är ett år gamla Peter?",
+        "answers": {
+            "a": "3 år",
+            "b": "12 månader",
+            "c": "1 år"
+        },
+        "correctAnswer": "b"
+
+    },
+
+    {
+        "question": "Testfråga 3: Vilken färg har den blå himlen?",
+        "answers": {
+            "a": "orange",
+            "b": "grön",
+            "c": "blå"
+        },
+        "correctAnswer": "c"
+    }
+]

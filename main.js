@@ -14,14 +14,75 @@ Skriv en fungerande Quiz-applikation. Visa på sidan hur många frågor som är 
 
 */
 
-class Quiz {
-    constructor() {
-        this.placeholder = [];
-    }
-}
+document.addEventListener("DOMContentLoaded", function(event) {
 
-class Question {
-    constructor() {
-        this.placeholder = [];
-    }
-}
+    console.log("Allt laddat!")
+
+});
+
+/*
+const testQuestion = [fråga1, fråga2, fråga3]
+
+
+*/
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    const button = document.getElementById("startButton");
+    button.addEventListener("click", function(asdasd) {
+        asdasd.preventDefault();
+
+        console.log("Du tryckte på knappen")
+
+        class Quiz {
+            constructor(user, chosenQuestions, resultCorrect, resultWrong) {
+                this.user = user;
+                this.chosenQuestions = chosenQuestions;
+                this.resultCorrect = resultCorrect;
+                this.resultWrong = resultWrong;
+            }
+        }
+
+        class Question {
+            constructor(category, question, options, rightOrWrong) {
+                this.category = category;
+                this.question = question;
+                this.options = options;
+                this.rightOrWrong = rightOrWrong;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    });
+});
