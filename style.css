@@ -1,0 +1,39 @@
+* {
+    font-family: 'Arial';
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.mainPageContainer {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.logo {
+    height: 100px;
+}
+
+.overBar {
+    height: 10px;
+    background-color: black;
+}
+
+.quizArea {}
+
+.underBar {
+    height: 10px;
+    background-color: black;
+}
+
+.credits {
+    color: gray;
+}
