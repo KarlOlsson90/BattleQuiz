@@ -14,11 +14,17 @@ Skriv en fungerande Quiz-applikation. Visa på sidan hur många frågor som är 
 
 */
 
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
 
     console.log("Allt laddat!")
+    let JSON = getJSON("http://www.mocky.io/v2/5d9212fa310000e1ac10cd86");
+    console.log(JSON);
 
 });
+
+
 
 /*
 const testQuestion = [fråga1, fråga2, fråga3]
@@ -26,6 +32,9 @@ const testQuestion = [fråga1, fråga2, fråga3]
 
 */
 
+
+
+/*
 document.addEventListener("DOMContentLoaded", function(event) {
     const button = document.getElementById("startButton");
     button.addEventListener("click", function(asdasd) {
@@ -34,8 +43,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         console.log("Du tryckte på knappen")
 
         class Quiz {
-            constructor(user, chosenQuestions, resultCorrect, resultWrong) {
-                this.user = user;
+            constructor(userName, chosenQuestions, resultCorrect, resultWrong) {
+                this.userName = userName;
                 this.chosenQuestions = chosenQuestions;
                 this.resultCorrect = resultCorrect;
                 this.resultWrong = resultWrong;
@@ -52,37 +61,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     });
 });
+
+*/

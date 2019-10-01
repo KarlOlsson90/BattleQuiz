@@ -58,6 +58,7 @@ button:focus {
 .credits {
     color: gray;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 #backButton {

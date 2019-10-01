@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+
 <html lang="en">
 
 </html>
@@ -8,8 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="style.css" rel="stylesheet" />
-    <script src="main.js"></script>
     <script src="readjson.js"></script>
+    <script src="main.js"></script>
+
 </head>
 
 <body>
@@ -20,11 +23,14 @@
         <div class="overBar"></div>
 
         <div class="quizArea">
-            <h1>Välkommen till quizet!</h1><br>
-            <p>Skriv en fungerande Quiz-applikation. Visa på sidan hur många frågor som är besvarade. <br> • Låt användaren bestämma hur många frågor som ska visas. <br> • Skriv klassen Quiz. Den ska hålla reda på användarens namn, frågorna som ingår och
-                hur många frågor som har besvarats korrekt/felaktigt. <br> • Skriv klassen Question. Den ska hålla reda på frågekategori, fråga, svarsalternativ och om svarsalternativet är korrekt eller inte. <br> • Lämna in projektet som ett git-repo.
-                <br> • Man ska kunna välja flera svar. Ibland kan ett alternativ vara rätt, ibland flera. <br> • Frågorna ska läsas in från en JSON-fil. <br> • VG: Klassen ska ha en correct-metod, som tar en array som parameter. Arrayen ska innehålla
-                de DOM-element som hör till frågan och kontrollera vilka alternativ som är korrekt ifyllda. <br> • VG: Visa en fråga i taget, låt användaren bläddra mellan dem. <br>• VG: Responsiv design</p>
+            <h1>Välkommen till quizet!</h1><br> Namn:
+            <input type="text" value="Username"></form><br><br>
+            <form>
+                <input type="radio" name="chosenQuestions" value="4"> 3 Frågor<br>
+                <input type="radio" name="chosenQuestions" value="8" checked> 6 Frågor<br>
+                <input type="radio" name="chosenQuestions" value="12"> 9 Frågor
+            </form>
+
         </div>
         <button id=startButton onclick="window.location.href='/quiz.html'">Starta</button>
         <div class="underBar"></div>
