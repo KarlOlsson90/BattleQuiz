@@ -10,33 +10,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="style.css" rel="stylesheet" />
-    <script src="readjson.js"></script>
-    <script src="main.js"></script>
-
 </head>
 
 <body>
-
     <div class="mainPageContainer">
-
-        <div class="logo"></div>
+				<img src="Slagskeppet.JPG" class="logo">
         <div class="overBar"></div>
-
-        <div class="quizArea">
-            <h1>Välkommen till quizet!</h1><br> Namn:
-            <input type="text" value="Username"></form><br><br>
-            <form>
-                <input type="radio" name="chosenQuestions" value="4"> 3 Frågor<br>
-                <input type="radio" name="chosenQuestions" value="8" checked> 6 Frågor<br>
-                <input type="radio" name="chosenQuestions" value="12"> 9 Frågor
-            </form>
-
+        <!-- Välkomstskärm -->
+        <div class="js-preStartContainer quizArea">
+            <div>
+								<div class="inputRow">
+									<label for="preStartInputName" class="inputLabel">Ange ditt namn:</label>
+									<input class="js-nameInput inputText" id="preStartInputName" type="text" placeholder="namn">
+								</div>
+								<div class="inputRow">
+									<label for="preStartInputQuestions" class="inputLabel">Antal frågor (1-9):</label>
+									<input class="js-numberInput inputText" id="preStartInputQuestions" type="number" value="5" min="1" max="9">
+								</div>
+            </div>
+            <button class="button js-startGameButton startGameButton">
+                <div class="rightArrow buttonArrow"></div>
+                <div class="startTextContainer">Start</div>
+			</button>
         </div>
-        <button id=startButton onclick="window.location.href='/quiz.html'">Starta</button>
-        <div class="underBar"></div>
-        <div class="credits">Skapat av etc etc</div>
+        <!-- Aktiverat Quiz -->
+        <div class="js-questionsContainer quizArea hidden">
+   
+            <div class="js-question">
+						</div>
+						<button class="js-previousQuestionButton button">
+                <div class="prevArrow buttonArrow"></div>
+                <div class="textContainer">Tillbaka</div>
+            </button>
+            <button class="js-nextQuestionButton button">
+                <div class="textContainer">Nästa fråga</div>
+                <div class="nextArrow buttonArrow"></div>
+            </button>
+            <button class="js-correctorButton button hidden">Rätta Quiz</button>
+        </div>
 
+        <div class="underBar"></div>
+        <div class="credits">Karl Olsson, JavaScript 1</div>
     </div>
+    <script src="main.js"></script>
+    <script src="readjson.js"></script>
 
 </body>
 

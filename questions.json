@@ -1,31 +1,100 @@
 [{
-        "question": "Testfråga 1: Vad blir 5 + 5",
-        "answers": {
-            "a": "10",
-            "b": "15",
-            "c": "7"
-        },
-        "correctAnswer": "a"
-    },
-
-    {
-        "question": "Testfråga 2: hur gammal är ett år gamla Peter?",
-        "answers": {
-            "a": "3 år",
-            "b": "12 månader",
-            "c": "1 år"
-        },
-        "correctAnswer": "b"
-
-    },
-
-    {
-        "question": "Testfråga 3: Vilken färg har den blå himlen?",
-        "answers": {
-            "a": "orange",
-            "b": "grön",
-            "c": "blå"
-        },
-        "correctAnswer": "c"
-    }
+    "category": "Ekonomi",
+    "question": "Vem figurerar på den nya 100-lappen (2016)?",
+    "alternatives": [
+        { "value": "Astrid Lindgren", "checked": false },
+        { "value": "Greta Garbo", "checked": false },
+        { "value": "Göran Lamberts", "checked": false },
+        { "value": "Zlatan", "checked": false }
+    ],
+    "correctAnswer": [1]
+},
+{
+    "category": "Rymden",
+    "question": "Hur lång tid tar det för en foton att färdas från Solen till Jorden?",
+    "alternatives": [
+        { "value": "8 sekunder", "checked": false },
+        { "value": "24 timmar", "checked": false },
+        { "value": "8 minuter", "checked": false },
+        { "value": "Jättelänge, kanske flera år", "checked": false }
+    ],
+    "correctAnswer": [2]
+},
+{
+    "category": "Ekonomi",
+    "question": "Vilka nedan verksamheter hör till Sveriges 4 storbanker?",
+    "alternatives": [
+        { "value": "Handelsbanken", "checked": false },
+        { "value": "Ikano Bank", "checked": false },
+        { "value": "Riksbanken", "checked": false },
+        { "value": "Nordea", "checked": false }
+    ],
+    "correctAnswer": [0, 3]
+},
+{
+    "category": "Rymden",
+    "question": "Vilken är den största planeten i vårt solsystem?",
+    "alternatives": [
+        { "value": "Jupiter", "checked": false },
+        { "value": "Saturnus", "checked": false },
+        { "value": "Ajakis", "checked": false },
+        { "value": "Merkurius", "checked": false }
+    ],
+    "correctAnswer": [0]
+},
+{
+    "category": "Film",
+    "question": "Vilka nedan filmer är regisserade av Quentin Tarantino?",
+    "alternatives": [
+        { "value": "Baksmällan", "checked": false },
+        { "value": "Pulp Fiction", "checked": false },
+        { "value": "Con Air", "checked": false },
+        { "value": "From Dusk till Dawn", "checked": false }
+    ],
+    "correctAnswer": [1, 3]
+},
+{
+    "category": "Rymden",
+    "question": "Vad hette det första rymdskeppet som transporterade människor till månen (i verkligheten)?",
+    "alternatives": [
+        { "value": "The Sin of Damnation", "checked": false },
+        { "value": "Saturn V", "checked": false },
+        { "value": "Prometheus IX", "checked": false },
+        { "value": "Firefly", "checked": false }
+    ],
+    "correctAnswer": [1]
+},
+{
+    "category": "Rymden",
+    "question": "Vad hette den första människan som besökte rymden?",
+    "alternatives": [
+        { "value": "Yuri Gagarin", "checked": false },
+        { "value": "Niel Armstrong", "checked": false },
+        { "value": "Boris Vladovic", "checked": false },
+        { "value": "Gavrilo Princip", "checked": false }
+    ],
+    "correctAnswer": [0]
+},
+{
+    "category": "Ekonomi",
+    "question": "Vad kallas den ränta som Riksbanken tar när den lånar ut pengar till övriga banker?",
+    "alternatives": [
+        { "value": "Inflationsräntan", "checked": false },
+        { "value": "Reporäntan", "checked": false },
+        { "value": "Marginalräntan", "checked": false },
+        { "value": "Styrräntan", "checked": false }
+    ],
+    "correctAnswer": [1, 3]
+},
+{
+    "category": "Rymden",
+    "question": "Vilket var det första däggdjuret som människan (medvetet) skickade upp till omloppsbana?",
+    "alternatives": [
+        { "value": "Apa", "checked": false },
+        { "value": "Giraff", "checked": false },
+        { "value": "Katt", "checked": false },
+        { "value": "Hund", "checked": false }
+    ],
+    "correctAnswer": [3]
+}
 ]
